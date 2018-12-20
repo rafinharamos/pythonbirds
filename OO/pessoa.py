@@ -17,4 +17,7 @@ if __name__ == "__main__":
     p.nome = 'Cintia'
     print(p.nome)
     for filhos in Rafael.filhos:
-        print(filhos)
+     print(filhos)
+    del Rafael.filhos
+    print(Rafael.__dict__)
+
